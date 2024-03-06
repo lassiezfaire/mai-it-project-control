@@ -6,7 +6,7 @@ services:
     volumes:
       - /var/cartoonizer:/var/cartoonizer
     environment:
-      - bot_token=6381166597:AAHE4A8xMslLBspJ_-L5CBJ48INbfJCCvY4
+      - bot_token=example_token
 
   cartoonizer-back:
     image: cartoonizer-back
